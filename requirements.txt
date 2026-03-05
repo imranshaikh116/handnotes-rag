@@ -1,0 +1,84 @@
+# ══════════════════════════════════════════════════════
+#  HandNotes RAG — Full Python Dependencies
+#  Install: py -3.10 -m pip install -r requirements.txt
+#  Then:    py -3.10 -m pip install tf-keras
+# ══════════════════════════════════════════════════════
+
+# ── PDF processing ────────────────────────────────────
+PyMuPDF==1.24.14
+
+# ── Embeddings (local, offline after first download) ──
+sentence-transformers==3.3.1
+torch>=2.0.0
+transformers==4.46.3
+tokenizers==0.20.3
+huggingface-hub==0.36.2
+safetensors>=0.4.1
+scikit-learn
+joblib>=1.2.0
+
+# ── Vector database (fully local + persistent) ────────
+chromadb==0.5.23
+chroma-hnswlib==0.7.6
+onnxruntime>=1.14.1
+
+# ── HTTP (OCR API calls + Ollama communication) ───────
+requests==2.32.3
+urllib3>=1.21.1
+
+# ── Streamlit UI ──────────────────────────────────────
+streamlit==1.41.1
+altair==5.5.0
+pydeck>=0.8.0
+watchdog>=2.1.5
+
+# ── PDF report generation (bonus feature) ─────────────
+reportlab==4.2.5
+chardet>=3.0.0
+
+# ── Environment / config ──────────────────────────────
+python-dotenv==1.0.1
+
+# ── Keras compatibility fix (REQUIRED — fixes import error) ──
+tf-keras
+
+# ── Core utilities ────────────────────────────────────
+numpy>=1.24.0
+Pillow>=9.0.0
+packaging>=20.0
+tqdm>=4.65.0
+filelock>=3.0.0
+fsspec>=2023.5.0
+PyYAML>=6.0.0
+typing_extensions>=4.5.0
+
+# HandNotes RAG — Python Dependencies
+# Install with: py -3.10 -m pip install -r requirements.txt
+
+# PDF processing
+PyMuPDF==1.24.14
+
+# Embeddings (local, runs offline after first download)
+sentence-transformers==3.3.1
+torch>=2.0.0
+
+# Vector database (local, persistent)
+chromadb==0.5.23
+
+# HTTP requests (OCR API + Ollama)
+requests==2.32.3
+
+# Streamlit UI
+streamlit==1.41.1
+
+# PDF report generation (bonus feature)
+reportlab==4.2.5
+
+# Environment config
+python-dotenv==1.0.1
+
+# Keras compatibility fix (required)
+tf-keras
+
+# Utilities
+numpy>=1.24.0
