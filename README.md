@@ -226,3 +226,16 @@ README.md           → This file
 | UI | Streamlit |
 | PDF Reports | ReportLab |
 | PDF Parsing | PyMuPDF |
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1020" alt="HandNotes RAG - Google Chrome 05-03-2026 15_51_12" src="https://github.com/user-attachments/assets/39bf7f69-701d-4fcf-977d-95766e66b618" />
+<img width="1920" height="1020" alt="HandNotes RAG - Google Chrome 05-03-2026 15_51_25" src="https://github.com/user-attachments/assets/fd9311fa-9a10-40d6-bb1e-9e333547525f" />
+<img width="1920" height="1020" alt="HandNotes RAG - Google Chrome 05-03-2026 15_51_33" src="https://github.com/user-attachments/assets/05ecb9b9-6b6e-4dfb-bb5b-f2e77dc9b31b" />
+<img width="1920" height="1020" alt="HandNotes RAG - Google Chrome 05-03-2026 15_51_43" src="https://github.com/user-attachments/assets/abf15d4b-9584-42b0-8200-38cf466c16e0" />
