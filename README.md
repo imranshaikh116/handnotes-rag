@@ -1,4 +1,4 @@
-# 📝 HandNotes RAG — Gen AI Hackathon 2026
+# 📝 HandNotes RAG — Gen AI 2026
 
 > **Build Smart. Retrieve Precisely. Answer Honestly.**
 
@@ -191,29 +191,6 @@ README.md           → This file
 
 ---
 
-## 🏆 Scoring Alignment
-
-| Criteria | Weight | Our Approach |
-|---|---|---|
-| Correct Answers | 40% | Mistral OCR + overlap chunking + strict RAG prompt |
-| RAG Workflow | 20% | Clean 7-step pipeline, retrieval and generation separated |
-| Bonus Features | 20% | PDF reports + confidence scores + memory + CLI |
-| UI Design | 10% | Dark scholarly Streamlit theme |
-| Presentation | 10% | See demo flow below |
-
----
-
-## 🎤 Demo Flow (for judges)
-
-1. Show **System Status** — all green lights
-2. Upload PDF → show OCR + chunking stats
-3. Ask a clear question → show answer with source citation
-4. Ask a **trick question** → show "I don't know" (no hallucination)
-5. Ask a **follow-up** → show conversation memory working
-6. Upload a **second PDF** → ask a cross-PDF question
-7. Click **Generate Q&A Report** → download PDF
-
----
 
 ## 🛠️ Tech Stack
 
